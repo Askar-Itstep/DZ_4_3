@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="4dp"
+    android:stretchColumns="*"
+    android:id="@+id/dialog_fragment">
+
+    <TableRow>
+        <TextView
+            android:text="Название фильма"
+            android:layout_gravity="center"
+            android:textSize="8pt"/>
+
+        <EditText	android:id="@+id/edFilmName"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Жанр фильма"
+            android:layout_gravity="center"
+            android:textSize="8pt"/>
+
+        <EditText	android:id="@+id/edGenreFilm"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="@string/Date_product"
+            android:layout_gravity="center"
+            android:textSize="8pt"/>
+
+        <EditText	android:id="@+id/edDate"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:onClick="btnClick"
+            android:text="@string/OK"
+            android:id="@+id/btnApply"/>
+
+        <Button
+            android:onClick="btnClick"
+            android:text="@string/Cancel"
+            android:id="@+id/btnCancel"/>
+    </TableRow>
+
+    <!--кнопка ведущая к SecondActivity (файлов. сист. и выбор)-->
+    <Button
+        android:onClick="btnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:id="@+id/btnChangeImage"
+        android:text="@string/action_image_change"/>
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+</TableLayout>
+
+    <!--использ-ся по соотв. выбору гл. меню для добавл. нового и изм. фильма
+    tools:layout_editor_absoluteX="-26dp"
+    tools:layout_editor_absoluteY="303dp"-->

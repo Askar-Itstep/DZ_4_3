@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DZ_4_3</string>
+    <string name="action_update">Изменить</string>
+    <string name="action_add">Добавить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="list_films">Список фильмов</string>
+    <string name="action_image_change">Выбор изображения</string>
+    <string name="action_open_file">Открыть файл</string>
+    <string name="action_remove_file">Удалить файл</string>
+    <string name="action_save_file">Сделать аватаром фильма</string>
+    <string name="action_select_film">Выбрать фильм по id:</string>
+    <string name="action_create_film">Добавить фильм</string>
+    <string name="action_remove_film">Удалить фильм</string>
+    <string name="action_update_film">Изменить фильм</string>
+    <string name="film_name">Название:</string>
+    <string name="Номер">#</string>
+    <string name="date_film">дата выхода:</string>
+    <string name="film_genre">жанр:</string>
+    <string name="Number">#</string>
+    <string name="Cancel">Отменить</string>
+    <string name="OK">Применить</string>
+    <string name="Date_product">год выпуска yyyy-mm-dd</string>
+    <string name="action_create_genre">Добавить жанр</string>
+    <string name="action_set_db__film">Загрузить БД</string>
+    <string name="action_update_genre">Изменить жанр</string>
+    <string name="oldTitle">Старое название жанра</string>
+    <string name="newTitle">Новое название жанра</string>
+    <string name="search_id">Введите ID фильма</string>
+    <string name="action_remove_genre">Удалить жанр</string>
+    <string name="action_select_film_genre">Выбрать фильмы по жанру</string>
+    <string name="action_work_genre">Работа с жанрами</string>
+</resources>

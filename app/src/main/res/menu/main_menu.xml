@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--<item android:id="@+id/action_set_db_film"-->
+        <!--android:title="@string/action_set_db__film"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="never"/>-->
+
+    <item android:id="@+id/action_update_film"
+        android:title="@string/action_update_film"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_remove_film"
+        android:title="@string/action_remove_film"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_work_genre"
+        android:title="@string/action_work_genre"
+        android:orderInCategory="120"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_create_film"
+        android:title="@string/action_create_film"
+        android:orderInCategory="120"
+        app:showAsAction="never"/>
+
+<!--здесь нужно подменю для соотв. выборок Select-->
+    <item android:id="@+id/action_select_film_on_id"
+        android:title="@string/action_select_film"
+        android:orderInCategory="120"
+        app:showAsAction="never"/>
+</menu>

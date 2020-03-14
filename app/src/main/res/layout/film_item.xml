@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#d3dfa4"
+    android:padding="4dp"
+    android:orientation="vertical">
+    <TableRow>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:id="@+id/tvId"/>
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt"
+            android:id="@+id/tvTitle"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:id="@+id/ivImg"/>
+        <TableLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:id="@+id/tvDate"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="10pt"
+                    android:id="@+id/tvGenre"/>
+            </TableRow>
+
+
+        </TableLayout>
+    </TableRow>
+
+
+
+</TableLayout>
